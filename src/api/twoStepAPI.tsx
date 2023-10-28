@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiURL: string = `https://two-step-auth-be.onrender.com/api`;
+const apiURL: string = `https://two-step-be.onrender.com/api`;
 
 export const registerAuthAPI = async (data: any) => {
   try {
